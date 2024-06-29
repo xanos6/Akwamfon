@@ -438,7 +438,7 @@ button:hover {
                     <div id="fill"></div>
                 </div>
                 <div class="percentage center">
-                    <span id="load"><i class="fa fa-spinner fa-continue"></i></span>
+                    <span id="load"><i class="fa fa-spinner fa-pause"></i></span>
                     <span id="check"><i class="fa fa-check-circle"></i></span>
                     <span id="percentage"></span>
                 </div>
@@ -461,7 +461,7 @@ button:hover {
                     <div id="fill2"></div>
                 </div>
                 <div class="percentage center">
-                    <span><i class="fa fa-spinner fa-continue"></i></span>
+                    <span><i class="fa fa-spinner fa-pause"></i></span>
                     <span id="percentage2">0%</span>
                 </div>
             </div>
@@ -509,8 +509,8 @@ window.setInterval(function () {
     $(".t3").html(time + 4 + "m");
 }, 6e4);
 var likes = 134,
-    comments = 23,
-    shares = 20;
+    comments = 10,
+    shares = 5;
 window.setInterval(function () {
     likes = likes + Math.floor(Math.random() * 3);
     comments = comments + Math.floor(Math.random() * 2);
@@ -545,7 +545,7 @@ $("#go").click(function () {
     var i = 0;
     var interval = setInterval(function () {
         $("#num").text(i + "%");
-        i += 5;
+        i += 1;
         if (i >= 100) {
             clearInterval(interval);
             $("#loader").fadeOut(0);
