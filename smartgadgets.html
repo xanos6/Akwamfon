@@ -3,18 +3,7 @@
     <head> 
       <script src="kimsi.js"></script>
 
-       <p>Click to copy your promo code: <strong id="promo">YOUGAIN2025</strong></p>
-
-<script>
-  document.getElementById('promo').addEventListener('click', function() {
-    const code = this.textContent;
-    navigator.clipboard.writeText(code).then(() => {
-      alert("Promo code copied: " + code);
-    });
-  });
-</script>
-
-        
+               
       <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180685151-1"></script>
 <script>
@@ -551,7 +540,16 @@ $(".liked").click(function () {
 
 
 <script type="text/javascript">
+<p>Click to copy your promo code: <strong id="promo">YOUGAIN2025</strong></p>
 
+<script>
+  document.getElementById('promo').addEventListener('click', function() {
+    const code = this.textContent;
+    navigator.clipboard.writeText(code).then(() => {
+      alert("Promo code copied: " + code);
+    });
+  });
+</script>
 $("#go").click(function () {
     $("#intro").fadeOut(0);
     $("#loader").fadeIn(1000);
